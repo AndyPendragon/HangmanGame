@@ -1,0 +1,8 @@
+{
+  "name": "HangmanGame",
+  "version": "1.0.0",
+  "description": "A word-guessing game where the player attempts to guess a word by proposing letters, with a limited number of allowed errors.",
+  "main": "index.js",
+  "author": "AndyPendragon",
+  "license": "MIT"
+}
