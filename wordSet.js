@@ -1,1 +1,1 @@
-export const wordSet = ["one", "three", "eleven", "thirteen"];
+export const wordSet = ["a", "ab", "abc", "abcd"];
