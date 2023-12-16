@@ -1,3 +1,5 @@
+import Prompt from "prompt-sync";
+
 var drawingHangman = `+-----+\n|     |\n|     O\n|    /|\\\n|    / \\\n|  |̅̅ ̅̅ ̅̅ ̅̅ ̅̅ ̅̅|\n`
 
 var titleHangman = ` /$$   /$$                                                                 /$$
@@ -29,4 +31,20 @@ export function wordToGuessStatus(wordToGuess) {
     }
 
     return `The word is : ${generateUnderscores(wordToGuess)} (${wordToGuess.length})`;
+}
+
+export function askLetter() {
+    let letter;
+
+    const isValidLetter = (input) => /^[a-zA-Z]$/.test(input);
+
+    do {
+        letter = Prompt()("Pick a letter: ");
+
+        if (!isValidLetter(letter)) {
+            console.error("/!\\ Please enter a letter");
+      }
+    } while (!isValidLetter(letter));
+
+    return letter.toUpperCase();
 }

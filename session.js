@@ -1,4 +1,4 @@
-import { interfaceGuessingWord } from "./interface.js";
+import { askLetter, interfaceGuessingWord } from "./interface.js";
 import { getRandomName } from "./randomName.js";
 import { wordSet } from "./wordSet.js";
 
@@ -7,4 +7,5 @@ export function session() {
     let life = 3;
 
     interfaceGuessingWord(wordToGuess, life);
+    console.log(askLetter());
 }
