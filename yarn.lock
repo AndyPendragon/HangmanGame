@@ -7,11 +7,6 @@ ansi-regex@^4.1.0:
   resolved "https://registry.npmjs.org/ansi-regex/-/ansi-regex-4.1.1.tgz"
   integrity sha512-ILlv4k/3f6vfQ4OoP2AGvirOktlQ98ZEL1k9FaQjxa3L1abBgbuTDAdPOpvbGncC0BTVQrl+OM8xZGK6tWXt7g==
 
-clear@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.npmjs.org/clear/-/clear-0.1.0.tgz"
-  integrity sha512-qMjRnoL+JDPJHeLePZJuao6+8orzHMGP04A8CdwCNsKhRbOnKRjefxONR7bwILT3MHecxKBjHkKL/tkZ8r4Uzw==
-
 prompt-sync@^4.2.0:
   version "4.2.0"
   resolved "https://registry.npmjs.org/prompt-sync/-/prompt-sync-4.2.0.tgz"
