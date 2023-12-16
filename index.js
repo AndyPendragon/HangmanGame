@@ -1,5 +1,7 @@
+import { session } from "./session.js";
+
 function main() {
-    console.log("Hello World !");
+    session();
 }
 
 main();
